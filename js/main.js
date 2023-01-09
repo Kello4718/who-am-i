@@ -33,7 +33,7 @@ buttonNo.addEventListener('click', () => {
   const fifthCodeInput = document.querySelector('.fifth-code');
   const fifthAnswer = document.querySelector('.fifth-answer');
   fifthCodeInput.addEventListener('input', () => {
-    if (fifthCodeInput.value === 'Алина') {
+    if (fifthCodeInput.value === 'Настя') {
       fifthBlockInfo.classList.add('fifth-info--hide');
       fifthAnswer.classList.remove('fifth-answer--hide');
     }
